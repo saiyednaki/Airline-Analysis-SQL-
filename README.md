@@ -1,5 +1,81 @@
 # Airline-Analysis-SQL-
 
+# Deutsch
+
+**Analyse der Auslastung und Erlöse im Flugbetrieb**
+
+**Projektüberblick**
+
+Die Luftfahrtbranche sieht sich zunehmendem Druck durch Umweltauflagen, steigende Treibstoffpreise, höhere Steuern und gestiegene Personalkosten ausgesetzt. Diese Faktoren haben die Rentabilität erheblich beeinträchtigt.
+Im Rahmen dieses Projekts werden Betriebs- und Erlösdaten analysiert, um Möglichkeiten zur Steigerung der Flugzeugauslastung zu identifizieren. Ziel ist es, den durchschnittlichen Gewinn pro Sitzplatz zu erhöhen, ohne dabei das Kundenerlebnis oder die Sicherheit zu beeinträchtigen.
+
+Der Schwerpunkt der Analyse liegt auf der Untersuchung von Ticketbuchungen, Tarifstrukturen, Flugzeugkapazitäten, Erlösentwicklungen sowie der Auslastung bei verschiedenen Flugzeugtypen.
+
+**Geschäftliche Herausforderung**
+
+- Das Unternehmen betreibt eine gemischte Flugzeugflotte mit unterschiedlichen Sitzplatzkapazitäten und Tarifbedingungen. Trotz stabiler Nachfrage steht die Rentabilität unter Druck, bedingt durch:
+- Strengere Umweltauflagen
+- Höhere Flugsteuern
+- Steigende Treibstoff- und Personalkosten
+- Sich wandelnde Kundenpräferenzen
+- Um diesen Herausforderungen zu begegnen, strebt das Unternehmen an, die Auslastung bei Flügen mit geringer Performance zu steigern und die Preisstrategien zu optimieren, um den Gesamtumsatz zu erhöhen. 
+
+**Zielsetzungen**
+
+- Steigerung der Auslastung zur Erhöhung des Gewinns pro Sitzplatz
+- Analyse von Ticketbuchungen und Umsatztrends im Zeitverlauf
+- Vergleich der Preisgestaltung über verschiedene Flugzeugtypen und Tarifklassen hinweg
+- Identifizierung leistungsschwacher Flugzeuge und Verbesserungspotenziale
+- Abschätzung der Umsatzauswirkungen bei einer Auslastungssteigerung um 10 %
+
+**Tools & Kompetenzen**
+- SQL / Datenanalyse
+- Aggregationen & KPIs
+- Umsatz- und Auslastungsanalyse
+
+**Methodik**
+1. Grundlegende Datenanalyse
+  - Identifizierung von Flugzeugen mit mehr als 100 Sitzplätzen
+  - Analyse der Sitzplatzkapazität nach Flugzeugtyp
+  - Berechnung der gebuchten Tickets und Umsatztrends
+
+2. Umsatz- und Preisanalyse
+  - Vergleich der durchschnittlichen Ticketpreise nach Tarifklassen
+  - Analyse der Umsatzverteilung nach Flugzeugtyp
+  - Identifizierung von Preismustern, die die Nachfrage beeinflussen
+
+3. Analyse der Auslastungsquote
+  - Berechnung der Auslastungsquote:
+  - Auslastungsquote = Gebuchte Sitzplätze / Gesamtzahl der Sitzplätze
+  - Vergleich der Auslastung verschiedener Flugzeuge
+  - Identifizierung von Flugzeugen mit geringer Auslastung
+
+4. Szenarioanalyse
+  - Simulation einer Auslastungssteigerung um 10 %
+  - Abschätzung des potenziellen Umsatzwachstums
+  - Bewertung der Machbarkeit preisbasierter Verbesserungen
+
+**Wichtige Erkenntnisse**
+- Flugzeuge mit niedrigeren Preisen erzielen tendenziell höhere Ticketverkäufe
+- Die Preise der Business Class liegen bei allen Flugzeugtypen durchgehend über denen der Economy Class
+- Einige Flugzeuge generieren hohe Umsätze aufgrund höherer Nachfrage, nicht aufgrund höherer Preise
+- Flugzeuge mit eingeschränkten Tarifoptionen und geringerer Servicequalität erzielen niedrigere Umsätze
+- Eine Auslastungssteigerung um 10 % führt zu einem spürbaren und beständigen Umsatzanstieg
+
+**Empfehlungen**
+- Optimierung der Preisgestaltung basierend auf Flugzeugzustand, Ausstattung und Nachfrage
+- Vermeidung extrem niedriger oder hoher Preise, da beides das Kundeninteresse mindert
+- Fokus von Marketing- und Preisstrategien auf Flüge mit geringer Auslastung
+- Verbesserung des Kundenerlebnisses zur nachhaltigen Förderung einer höheren Auslastung
+- Einsatz datengestützter Preisstrategien anstelle pauschaler Preisanpassungen
+
+**Fazit**
+
+Die Verbesserung der Auslastungsquote ist ein wirksamer Hebel zur Steigerung der Rentabilität einer Fluggesellschaft. Diese Analyse zeigt, dass eine strategische Preisoptimierung und gezielte Verbesserungen den Umsatz erheblich steigern können, ohne die Betriebskosten zu erhöhen.
+Ein ausgewogener, datengestützter Ansatz ermöglicht es Fluggesellschaften, wettbewerbsfähig zu bleiben und gleichzeitig die Kundenzufriedenheit sowie Sicherheitsstandards zu wahren.
+
+# English
+
 **Airline Occupancy Rate & Revenue Analysis**
 
 **Project Overview**
@@ -71,6 +147,3 @@ The analysis focuses on understanding ticket bookings, fare structures, aircraft
 
 Improving occupancy rates is a powerful lever for increasing airline profitability. This analysis demonstrates that strategic pricing optimization and targeted improvements can significantly boost revenue without increasing operational costs.
 A balanced, data-driven approach enables airlines to remain competitive while maintaining customer satisfaction and safety standards.
-
-Business insights & reporting
-Data visualization (charts & graphs)
